@@ -74,6 +74,7 @@ object FrmPrincipal: TFrmPrincipal
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 0
+      ExplicitWidth = 532
       DesignSize = (
         534
         85)
@@ -106,17 +107,16 @@ object FrmPrincipal: TFrmPrincipal
       object lblSQL: TLabel
         Left = 10
         Top = 62
-        Width = 28
+        Width = 24
         Height = 17
         Anchors = [akLeft, akBottom]
-        Caption = 'SQL:'
+        Caption = 'SQL'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -13
         Font.Name = 'Segoe UI'
         Font.Style = [fsBold]
         ParentFont = False
-        ExplicitTop = 187
       end
       object edtVarInicio: TEdit
         Left = 10
@@ -183,6 +183,8 @@ object FrmPrincipal: TFrmPrincipal
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 1
+      ExplicitLeft = 532
+      ExplicitWidth = 532
       DesignSize = (
         534
         85)
@@ -210,6 +212,9 @@ object FrmPrincipal: TFrmPrincipal
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 2
+      ExplicitLeft = 532
+      ExplicitWidth = 532
+      ExplicitHeight = 84
       object chkVarInicioPrimeiraLinha: TCheckBox
         AlignWithMargins = True
         Left = 5
